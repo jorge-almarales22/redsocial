@@ -1,0 +1,21 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+$facebook-color: #3b5998;	
+.btn-facebook{
+	background-color: $facebook-color;
+	border-color: darken($facebook-color, 3%);
+	color: white;
+	&:hover, &:active, &:focus{
+	color: white;
+	}
+}
+.card
+{
+	border-bottom: 3px solid rgba(0, 0, 0, 0.7);
+}
